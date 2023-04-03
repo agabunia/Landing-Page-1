@@ -1,0 +1,276 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0F172A;
+    height: 112px;
+}
+
+.starter {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 36px;
+    width: 222px;
+    height: 44px;
+}
+
+.skillwill-logo {
+    position: relative;
+    margin-top: 4.5px;
+    size: 30px;
+
+    width: 178px;
+    height: 35px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+
+    background: linear-gradient(270deg, #16B8F3 50%, #0EA5E9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    width: 384px;
+    margin-top: 32px;
+    margin-right: 100px;
+}
+
+.nav a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #F8FAFC;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.main {
+    padding-left: 145px;
+    padding-right: 145px;
+    background-color: #0F172A;
+}
+
+.section {
+    padding-top: 94px;
+}
+
+.recent-projects {
+    width: 343px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    padding-bottom: 83px;
+}
+
+
+
+.h2-part1 {
+    color: #F8FAFC;
+}
+
+.h2-part2 {
+    color: #16B8F3;
+}
+
+.projects-section {
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+}
+
+
+.article {
+    background: rgba(30, 41, 59, 0.4);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 87.5px;
+    padding-bottom: 90.82px;
+}
+
+.project-h {
+    color: #F8FAFC;
+    width: 113px;
+    height: 35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.project-p {
+    color: #CBD5E1;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+
+
+.latest-posts {
+    width: 296px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    padding-bottom: 83px;
+}
+
+.posts-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 139px;
+}
+
+.card {
+    background: #1E293B;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    width: 369px;
+    height: 518px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img {
+    width: 369px;
+    height: 292.81px;
+}
+
+.card-info {
+    text-align: center;
+}
+
+.card-h {
+    color: #F8FAFC;
+    box-sizing: content-box;
+    width: 209px;
+    height: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    padding-left: 80px;
+    padding-top: 22.74px;
+    padding-bottom: 3.45px;
+}
+
+.card-date {
+    color: #9CA3AF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    padding-left: 13.5px;
+}
+
+.card-p {
+    color: #F8FAFC;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    padding-left: 13.5px;
+}
+
+
+
+
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0F172A;
+    height: 136px;
+    border-top: 1px solid #CBD5E1;
+}
+
+.copyright {
+    color: #CBD5E1;
+    width: 331px;
+    height: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 57px;
+    margin-left: 108px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    justify-items: center;
+    padding: 0;
+    gap: 10px;
+    width: 152px;
+    height: 44px;
+    margin-top: 35px;
+    margin-right: 172px;
+}
+
+.social a {
+    width: 44px;
+    height: 44px;
+}
+
+.fb-logo {
+    margin-left: 12.83px;
+    margin-top: 5.5px;
+    margin-bottom: 5.5px;
+    width: 20.17px;
+    height: 33px;
+}
+
+.tw-logo {
+    margin-left: 3.67px;
+    margin-top: 7.15px;
+    margin-bottom: 7.46px;
+    width: 36.67px;
+    height: 29.39px;
+}
+
